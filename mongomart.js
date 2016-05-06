@@ -52,7 +52,7 @@ var ITEMS_PER_PAGE = 5;
 var USERID = "558098a65133816958968d88";
 
 var connectionString = "mongodb://shahamitr:shahamitr@ds015962.mlab.com:15962/mongomart";
-//var connectionString = "'mongodb://localhost:27017/mongomart";
+//var connectionString = "mongodb://localhost:27017/mongomart";
 
 MongoClient.connect(connectionString, function(err, db) {
     "use strict";
